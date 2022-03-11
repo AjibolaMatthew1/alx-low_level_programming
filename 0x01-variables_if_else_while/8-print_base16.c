@@ -1,20 +1,25 @@
 #include <stdio.h>
-/* 
- * main - Entry point 
- * Return - 0 , Always(succes)
- */
+
+/**
+ ** main - Prints a hexadecimal string
+ *
+ * Return: Always (Success)
+ **/
 int main(void)
 {
-	char i;
-	for (i = 0; i < 10; i++)
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(i);
+		putchar(c);
 	}
-	i = 'a';
-	while (i < 'g')
+
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(i);
+	putchar(c);
 	}
+
 	putchar('\n');
+
 	return (0);
 }
