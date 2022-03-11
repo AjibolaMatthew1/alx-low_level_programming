@@ -4,12 +4,11 @@
 /*
  * main - Entry point 
  * Description - Program to show postive or neg
- * Return - 0 Always(Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
