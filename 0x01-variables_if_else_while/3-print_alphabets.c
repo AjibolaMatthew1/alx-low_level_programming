@@ -3,7 +3,7 @@
  * main - Entry point
  * Return - 0 Always(Success)
  */
-int main()
+int main(void)
 {
 	char c = 'a';
 	while (c <= 'z')
