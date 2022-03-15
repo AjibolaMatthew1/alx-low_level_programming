@@ -1,18 +1,10 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints all alphabets
+ * print_alphabet - prints all alphabets
  *
- * Return - 0
+ *Return: Always 0
  */
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	char c;
@@ -22,6 +14,5 @@ void print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-	return;
 }
 
