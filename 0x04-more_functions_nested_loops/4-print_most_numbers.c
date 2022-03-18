@@ -2,8 +2,6 @@
 
 /**
  *print_most_numbers - this functions prints numbers from 0-9
- *
- *Return : nothing
  */
 void print_most_numbers(void)
 {
