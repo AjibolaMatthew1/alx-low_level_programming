@@ -2,12 +2,10 @@
 
 /**
  *more_numbers - this prints from 0 to 14, ten times
- *
- *Return: nothing;
  */
 void more_numbers(void)
 {
-	int i , j;
+	int i, j;
 
 	i = 0;
 	while(i < 10)
