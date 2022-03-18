@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *print_diagonal - this functions prints backward slashes
- *@n: this is the number of times it prints it
- *Return: nothing
+ * print_diagonal - this functions prints backward slashes
+ * @n: this is the number of times it prints it
  */
 void print_diagonal(int n)
 {
@@ -14,6 +13,7 @@ void print_diagonal(int n)
 	else
 	{
 		int i, j;
+		
 		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < n; j++)
