@@ -2,8 +2,6 @@
 
 /**
  *print_most_numbers - this functions prints numbers from 0-9
- *
- *Return : nothing
  */
 void print_most_numbers(void)
 {
@@ -11,10 +9,10 @@ void print_most_numbers(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		if (i == 2 || i == 4)
+		if (i != 2 && i != 4)
 		{
-			 _putchar("");
+			_putchar(i + '0');
 		}
-		_putchar(i);
 	}
+	_putchar('\n');
 }
