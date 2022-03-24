@@ -28,5 +28,5 @@ char *_strcat(*dest, char *src)
 
 		}
 	}
-	return (*dest);
+	return (dest);
 }
