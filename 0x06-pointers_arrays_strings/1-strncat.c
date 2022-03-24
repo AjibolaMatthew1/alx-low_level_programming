@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - Concatenates a source string to a dest string with 
- * at most n bytes of src string.
+ * _strncat - Concatenates a source string to a dest string
  * @dest: the string to be concatenated on
  * @src: the string that is being concatenated
  * @n: the maximum number of src bytes to be concatenated.
@@ -14,7 +13,6 @@ char *_strncat(char *dest, char *src, int n)
 
 	i = 0;
 	j = 0;
-
 	while (dest[i] != '\0')
 		i++;
 	while (src[j] != '\0' && j < n)
