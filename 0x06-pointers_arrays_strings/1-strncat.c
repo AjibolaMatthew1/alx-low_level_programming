@@ -8,7 +8,7 @@
  * @n: the maximum number of src bytes to be concatenated.
  * Return: the destination string
  */
-char *_strncat(char *dest, char *src, int n
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
