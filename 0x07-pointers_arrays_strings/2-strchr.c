@@ -2,28 +2,24 @@
 
 /**
  * _strchr - returns a pointer to the first occurence
- * of character c in the string s
  * @s: string to be checked
  * @c: the character to be searched for
  * Return: a pointer
  */
 char *_strchr(char *s, char c)
 {
-	int i, j;
+	unsigned int i = 0;
 
-	while (s[i] != '\0')
+	for (; *(s + i) != '\0'; i++)
 	{
-		i++;
-	}
-	for (j = 0; j < i; j++)
-	{
-		if (*(s + j) == c)
+		if (*(s + i) == c)
 		{
-			return (s + j);
-		}
-		else
-		{
-			return ('\0');
+			return (s + i);
 		}
 	}
+	if (*(s + i) == c)
+	{
+		return (s + i);
+	}
+	return ('\0');
 }
