@@ -9,7 +9,9 @@ int check(int n, int num);
  */
 int is_prime_number(int n)
 {
-	check(n, n - 1);
+	if (n <= 1)
+		return (0);
+	return(check(n, n - 1));
 }
 
 /**
@@ -20,9 +22,9 @@ int is_prime_number(int n)
  */
 int check(int n, int num)
 {
-	if (n % num == 0)
+	if (n % num == 0 && num > 0)
 		return (0);
-	if (n == 1)
+	if (num == 1)
 		return (1);
-	check(n, num - 1);
+	return (check(n, num - 1));
 }
