@@ -11,11 +11,11 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return(check(n, n - 1));
+	return (check(n, n - 1));
 }
 
 /**
- * another_check - checks if number is prime
+ * check - checks if number is prime
  * @n: number to be checked
  * @num: test number
  * Return: 1 or 0
