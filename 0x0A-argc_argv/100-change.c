@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 	int change, coins;
 
 	char *input = argv[1];
+
 	change = coins = 0;
 	if (argc != 2)
 	{
