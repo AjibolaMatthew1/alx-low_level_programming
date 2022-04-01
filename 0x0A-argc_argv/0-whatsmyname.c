@@ -2,8 +2,9 @@
 
 /**
  * main - entry point
- * @argv[] - argument vector
- * Return - 0 (success)
+ * @argc: argument counter;
+ * @argv: argument vector
+ * Return: 0 (success)
  */
 int main(int argc, char *argv[])
 {
