@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ *print_times_table - Print the times table
+ * @n : the number to be multiplied
+ *Return: Nothing
+ */
+int main(void)
+{
+
+}
