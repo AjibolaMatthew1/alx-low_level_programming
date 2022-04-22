@@ -3,6 +3,12 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+ * print_list - this functions prints the elements of a linked list
+ * @h: this is the linked list
+ * Return: It returns the number of nodes present in the list
+ */
+
 size_t print_list(const list_t *h)
 {
 	int node_counter = 0;
