@@ -29,4 +29,5 @@ size_t print_list(const list_t *h)
 			iter = iter->next;
 		}
 	}
+	return (node_counter);
 }
