@@ -6,7 +6,7 @@
 size_t print_list(const list_t *h)
 {
 	int node_counter = 0;
-	list_t *iter;
+	const list_t *iter;
 
 	iter = h;
 	if (iter == NULL)
